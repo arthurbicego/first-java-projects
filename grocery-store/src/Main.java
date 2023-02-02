@@ -1,7 +1,6 @@
 /*
 Crie um programa de uma loja com as seguintes opções abaixo, para cada operação, deve ser manipulado arquivo para salvar as informações dos produtos,
 para que caso saia do programa as informações persistam.
-
 Obs: só vai precisar salvar em arquivo as informações dos produtos.
 
 - Criar produto contendo as informações nome do produto, quantidade e preço.
