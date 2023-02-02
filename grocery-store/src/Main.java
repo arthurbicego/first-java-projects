@@ -1,6 +1,4 @@
 /*
-Poste o url do repositório git nesta atividade com o nome completo dos alunos participantes.
-
 Crie um programa de uma loja com as seguintes opções abaixo, para cada operação, deve ser manipulado arquivo para salvar as informações dos produtos,
 para que caso saia do programa as informações persistam.
 
@@ -14,16 +12,13 @@ Obs: só vai precisar salvar em arquivo as informações dos produtos.
 os preços e o total. Quando ele for escolher o produto e quantidade, faça uma verificação se o produto tem aquela quantidade, caso não tenha, informe ao
 usuário que não contém a quantidade deste produto no estoque. Assim que o usuário confirmar a compra, deduza as quantidades dos produtos selecionados.
 - Uma opção de saída que fecha o programa caso o usuário escolha.
-
  */
-
 
 public class Main {
 
     public static void main(String[] args) {
         ProdutoView view = new ProdutoView();
         while(view.menuPrincipal());
-
 
     }
 }
